@@ -8,7 +8,7 @@ body {
 /* container is the whole calculator, center it on page (dimensions of calculator dont change) */
 .container {
 	width: 350px;
-	height: 61vh;
+	height: 447.975px;
 	margin-top: 17vh;
 	border: 10px solid black;
 	border-radius: 5px;
