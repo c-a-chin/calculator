@@ -3,6 +3,7 @@
 <head>
 	<title>Calculator</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -10,7 +11,7 @@
 <div class="container">
 	<div class="row"> <!-- calculator header -->
 		<div class="col" align="center"> 
-			<p>CALCULATOR</p>
+			<p id="title"><strong>CALCULATOR</strong></p>
 		</div> 
 	</div> <!-- close calculator header -->
 
@@ -32,7 +33,7 @@
 		</div>
 	</div>
 
-	<div class="row mt-2">
+	<div class="row mt-3">
 		<div class="col" align="center">
 			<button class="main-buttons">7</button>
 		</div>
@@ -43,7 +44,7 @@
 			<button class="main-buttons">9</button>
 		</div>
 		<div class="col" align="center">
-			<button class="main-buttons"> + </button>
+			<button class="main-buttons operator"> + </button>
 		</div>
 	</div>
 
@@ -58,7 +59,7 @@
 			<button class="main-buttons">6</button>
 		</div>
 		<div class="col" align="center">
-			<button class="main-buttons"> - </button>
+			<button class="main-buttons operator"> - </button>
 		</div>
 	</div>
 
@@ -73,7 +74,7 @@
 			<button class="main-buttons">3</button>
 		</div>
 		<div class="col" align="center">
-			<button class="main-buttons"> x </button>
+			<button class="main-buttons operator"> x </button>
 		</div>
 	</div>
 
@@ -88,12 +89,12 @@
 			<button id="equal">=</button>
 		</div>
 		<div class="col" align="center">
-			<button class="main-buttons"> ÷ </button>
+			<button class="main-buttons operator"> ÷ </button>
 		</div>
 	</div>
 
 	<!-- buttons to flip screen/show random word -->
-	<div class="row mt-5">
+	<div class="row mt-3">
 		<div class="col">
 			<button id="random-word">Random Word</button>
 		</div>
@@ -102,6 +103,12 @@
 		</div>
 	</div>
 
+</div>
+
+
+<!-- FOOTER -->
+<div id="footer" class="container-fluid" align="center">
+	<p class="small">Made by <a href="https://github.com/c-a-chin" target="_blank">Cameron Chin</a></p>
 </div>
 
 
