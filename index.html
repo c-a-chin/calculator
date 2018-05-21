@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row"> <!-- calculator header -->
+		<div class="col" align="center"> 
+			<p>CALCULATOR</p>
+		</div> 
+	</div> <!-- close calculator header -->
+
+	<div id="screen" class="row mx-3"> <!-- calculator screen (display) -->
+		<div class="col" align="right">
+			<span id="main-display"></span><br> <!-- main display, shows current operation -->
+			<span class="small" id="sub-display">0</span> <!-- sub display, shows previous operations -->
+		</div>
+	</div> <!-- close calculator screen --> 
+
+	
+	<!-- rows for calculator buttons -->
+	<div class="row mt-4">
+		<div class="col" align="center">
+			<button id="ac">AC</button>
+		</div>
+		<div class="col-9" align="center">
+			<button id="ce">CE</button>
+		</div>
+	</div>
+
+	<div class="row mt-2">
+		<div class="col" align="center">
+			<button class="main-buttons">7</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons">8</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons">9</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons"> + </button>
+		</div>
+	</div>
+
+	<div class="row mt-2">
+		<div class="col" align="center">
+			<button class="main-buttons">4</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons">5</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons">6</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons"> - </button>
+		</div>
+	</div>
+
+	<div class="row mt-2">
+		<div class="col" align="center">
+			<button class="main-buttons">1</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons">2</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons">3</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons"> x </button>
+		</div>
+	</div>
+
+	<div class="row mt-2">
+		<div class="col" align="center">
+			<button class="main-buttons">0</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons">.</button>
+		</div>
+		<div class="col" align="center">
+			<button id="equal">=</button>
+		</div>
+		<div class="col" align="center">
+			<button class="main-buttons"> ÷ </button>
+		</div>
+	</div>
+
+	<!-- buttons to flip screen/show random word -->
+	<div class="row mt-5">
+		<div class="col">
+			<button id="random-word">Random Word</button>
+		</div>
+		<div class="col">
+			<button id="flip-screen">Flip Screen</button>
+		</div>
+	</div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="./scripts.js"></script>
+</body>
+</html>

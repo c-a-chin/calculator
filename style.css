@@ -1,0 +1,22 @@
+/* container is the whole calculator, center it on page (dimensions of calculator dont change) */
+.container {
+	width: 350px;
+	height: 55vh;
+	margin-top: 17vh;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#screen {
+	border: 1px solid black;
+	border-radius: 3px;
+	transition: transform 1s ease-in;
+}
+/*class to flip screen, toggle in js for Flip Screen button*/
+.flip-screen {
+	transform: rotate(180deg);
+}
+
+button {
+	width: 100%;
+}
